@@ -16,7 +16,7 @@ Detect if someone has diabetes
 
 # Open and display an image
 image = Image.open(
-    'C:/Users/user/Desktop/ML webapp (diabetic)/adobestock_276205639.png')
+    'adobestock_276205639.png')
 st.image(image, caption='ML', use_column_width=True)
 
 # Get the dat
