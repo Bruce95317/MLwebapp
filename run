@@ -3,7 +3,7 @@ window
 #
 image taken from https://news.yale.edu/2020/02/04/studies-suggest-new-path-reversing-type-2-diabetes-and-liver-fibrosis
 diabetes taken from kaggle UCI  https://www.kaggle.com/uciml/pima-indians-diabetes-database?select=diabetes.csv
-streamlit run "C:/Users/user/Desktop/ML webapp (diabetic)/main.py"
+streamlit run "C:/Users/user/Desktop/MLwebapp/webapp.py"
 
 
 git
@@ -15,7 +15,7 @@ touch README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/c0ldlimit/vimcolors.git
+git remote add origin https://github.com/Bruce95317/MLwebapp.git
 git push -u origin master
  
 # Push an existing repository from the command line
