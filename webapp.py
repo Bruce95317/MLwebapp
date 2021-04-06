@@ -20,7 +20,7 @@ image = Image.open(
 st.image(image, caption='ML', use_column_width=True)
 
 # Get the dat
-df = pd.read_csv('C:/Users/user/Desktop/MLwebapp/diabetes.csv')
+df = pd.read_csv('diabetes.csv')
 # Set a subheader
 st.subheader('Data Information')
 # show the data as a table
