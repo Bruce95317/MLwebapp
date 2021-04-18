@@ -81,7 +81,7 @@ RandomForestClassifier = RandomForestClassifier()
 RandomForestClassifier.fit(X_train, Y_train)
 
 # Show the model metrics
-st.subheader('Model Test Accurancy Score:')
+st.subheader('Model Test Accuracy Score:')
 st.write(str(accuracy_score(Y_test, RandomForestClassifier.predict(X_test)) * 100) + '%')
 # Store the models prediction in a variable
 prediction = RandomForestClassifier.predict(user_input)
